@@ -58,3 +58,44 @@ footer {
     padding: 10px;
 }
 
+/* TABLET (768px+) */
+
+@media (min-width: 768px) {
+    main {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    aside {
+        width: 35%;
+    }
+
+    main section {
+        width: 65%;
+    }
+}
+
+/* DESKTOP (1024px+) */
+
+@media (min-width: 1024px) {
+    main {
+        justify-content: center;
+        align-items: center;
+    }
+
+    aside {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    div {
+        flex: 3;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
