@@ -79,6 +79,7 @@ OU
 
 Acesse o link para ver o meu currículo funcionando:
 
+https://curriculo-flax-iota.vercel.app/
 
 ## 🎯 Objetivo da Atividade
 
